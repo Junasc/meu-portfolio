@@ -14,7 +14,6 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-
 #main {
     display: flex;
     flex-direction: row;
@@ -27,14 +26,26 @@ nav {
 }
 #titles {
     display: inline-block;
-    
 }
 #paragraph{
-    max-width: 50%;
-} 
 
+}
 #aboutme{
+    padding: 5%;
+    flex-direction: row;
+}
+#sectionaboutme{
+    display: flex;
+    flex-direction: row;
     background-color: aquamarine;
+}
+#photo-perfil{
+    width: 35%;
+    height: 60%;
+    border-radius: 50%;
+    display: inline-flex;
+    vertical-align: top;
+    padding: 5%;
 }
 footer{
     text-align: center;
