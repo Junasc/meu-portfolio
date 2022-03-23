@@ -16,7 +16,7 @@ nav {
 }
 #main {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -61,6 +61,26 @@ nav {
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
+}
+#secProjects{
+    background-color: aqua;
+    height: 400px;
+    width: auto;
+    padding: 15px;
+    margin-top: 40px;
+    border-radius: 12px;
+    justify-content: center;
+}
+#divProjects{
+    background-color: brown;
+    height: 250px;
+    padding: 12px;
+    display: flex;
+    border-radius: 12px;
+    
+}
+#secProjects > h2 {
+    text-align: center;
 }
 footer{
     text-align: center;
