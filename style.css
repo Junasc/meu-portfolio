@@ -37,7 +37,6 @@ nav {
 #sectionaboutme{
     display: flex;
     flex-direction: row;
-    background-color: aquamarine;
 }
 #photo-perfil{
     width: 35%;
@@ -46,6 +45,22 @@ nav {
     display: inline-flex;
     vertical-align: top;
     padding: 5%;
+}
+#skills{
+    background-color: antiquewhite;
+    height: 200px;
+    width: auto;
+    border-radius: 12px;
+}
+#skills > h2{
+    text-align: center;
+    padding: 12px;
+}
+#iconSkills{
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
 }
 footer{
     text-align: center;
