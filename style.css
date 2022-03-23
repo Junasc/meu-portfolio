@@ -15,24 +15,24 @@ nav {
     justify-content: space-between;
 }
 #main {
+    max-width: 960px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
-    max-width: 960px;
     margin: 40px auto 100px auto;
     gap: 30px;
 }
 #titles {
     display: inline-block;
 }
-#paragraph{
-
+p{
+    font: normal lighter 22px 'sans serif';
 }
 #aboutme{
     padding: 5%;
     flex-direction: row;
+    align-items: center;
 }
 #sectionaboutme{
     display: flex;
@@ -57,29 +57,34 @@ nav {
     padding: 12px;
 }
 #iconSkills{
+    width: 100%;
     display: inline-flex;
     flex-direction: row;
-    width: 100%;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 #secProjects{
     background-color: aqua;
-    height: 400px;
+    height: 450px;
     width: auto;
-    padding: 15px;
+    padding: 15px; 
     margin-top: 40px;
     border-radius: 12px;
     justify-content: center;
 }
+#secProjects > h2 {
+    text-align: center;
+}
 #divProjects{
     background-color: brown;
-    height: 250px;
+    height: 300px;
+    width: auto;
     padding: 12px;
     display: flex;
     border-radius: 12px;
-    
 }
-#secProjects > h2 {
+#divProjects > p {
+    max-width: auto;
+    padding: 15px;
     text-align: center;
 }
 footer{
