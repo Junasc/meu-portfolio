@@ -1,16 +1,7 @@
 #titles {
-    display: inline-block;
     font-size: 2em;
-}
-
-body {
-    display: block;
-}
-
-#sectionaboutme {
-    display: flex;
-    flex-direction: row;
-    padding: 50px;
+    line-height: 1.2em;
+    text-align: center;
 }
 
 .title-h2 {
@@ -20,6 +11,36 @@ body {
     font-weight: bold;
 }
 
+body {
+    display: block;
+}
+
+#sectionaboutme {
+    display: flex;
+    flex-direction: row;
+    padding: 40px;
+    width: 80vw;
+    margin: auto;
+}
+
+#sectionaboutme p {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#photo-perfil {
+    width: 400px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#skills {
+    width: auto;
+    text-align: center;
+    margin: 20px;
+}
+
 .images-projects {
     width: 300px;
     display: block;
@@ -27,23 +48,12 @@ body {
     padding-bottom: 100px;
 }
 
-#sectionaboutme p {
-    margin-top: 15px;
-    width: 80%;
-    font-size: 1.5em;
-}
-
-#photo-perfil {
-    width: 35%;
-    border-radius: 50%;
-}
-
-#iconSkills {
-    width: auto;
-    text-align: center;
-    margin: 20px;
-}
-
 footer {
     text-align: center;
+}
+
+@media screen and (max-width:864px) {
+    #photo-perfil {
+        display: none;
+    }
 }
