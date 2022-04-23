@@ -6,9 +6,11 @@
 [![License][MIT-license]][MIT-url]
 [![Realese][version]][version-url]
 
-## 👨‍🏫 Exemplo de uso
+## Em andamento 🔨
 
-Confira em ➡️ https://junasc.github.io/meu-portfolio/
+## Visite em :
+
+ https://junasc.github.io/meu-portfolio/
 <p align="center">
   
 </p>
