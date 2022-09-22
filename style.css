@@ -1,86 +1,33 @@
-#titles {
-    font-size: 2em;
-    line-height: 1.2em;
-    text-align: center;
-}
-
-.title-h2 {
-    text-align: center;
-    padding: 30px;
-    font-size: 1.5em;
-    font-weight: bold;
+:root {
+    --background: #67537A;
+    --rodape: #867198;
+    --cabecalho: #C2B6D6;
+    --textColor: #ffffff;
 }
 
 body {
-    display: block;
+    background-color: var(--background);
+    color: var(--textColor);
 }
 
-#sectionaboutme {
-    display: flex;
-    flex-direction: row;
-    padding: 40px;
-    width: 80vw;
-    margin: auto;
+#cabecalho {
+    background-color: var(--cabecalho);
 }
 
-#sectionaboutme p {
-    margin-top: 30px;
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+}
+
+#aboutme {
+    padding: 50px;
+    display: inline-flex;
+    align-items: center;
+}
+
+#aboutme div {
     text-align: center;
-    font-size: 1.5em;
-}
-
-#photo-perfil {
-    width: 400px;
-    border-radius: 50%;
-    margin: 20px;
-}
-
-#skills {
-    width: auto;
-    text-align: center;
-    margin: 20px;
-}
-
-.images-projects {
-    width: 300px;
-    display: block;
-    margin: auto;
-    padding-bottom: 100px;
-}
-
-#formation {
-    height: 400px;
-    display: flex;
-    font-size: 1.2em;
-}
-
-#forms {
-    background-color: aqua;
-    width: 50%;
-}
-
-#forms li {
-    width: 300px;
-    text-align: center;
-    display: flex;
-    margin: auto;
-    padding: 20px;
-}
-
-.content-form {
-    width: 200px;
-}
-
-#form-main {
-    padding: 70px;
-}
-
-footer {
-    text-align: center;
-}
-
-@media screen and (max-width:864px) {
-    #photo-perfil {
-        display: none;
-    }
 }
