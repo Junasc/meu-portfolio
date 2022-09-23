@@ -1,7 +1,7 @@
 :root {
     --background: #67537A;
     --rodape: #867198;
-    --cabecalho: #C2B6D6;
+    --cabecalho: #493758;
     --textColor: #ffffff;
 }
 
@@ -15,11 +15,32 @@ body {
 }
 
 h1 {
+    font-size: 45px;
+    padding: 25px;
+}
+
+#aboutme p {
+    text-align: center;
+    font-size: 30px;
+    padding: 45px;
+}
+
+h2 {
     font-size: 40px;
+    padding: 35px;
+    text-align: center;
 }
 
 p {
     font-size: 30px;
+}
+
+.navbar-light .navbar-brand {
+    color: var(--textColor);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: var(--textColor);
 }
 
 #aboutme {
@@ -30,4 +51,16 @@ p {
 
 #aboutme div {
     text-align: center;
+}
+
+.square {
+    width: 300px;
+    height: 200px;
+}
+
+#squares {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 25px;
+    margin: 80px;
 }
