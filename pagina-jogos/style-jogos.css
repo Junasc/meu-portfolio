@@ -1,0 +1,10 @@
+.div-games {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 8%;
+}
+
+.div-games div {
+    text-align: center;
+}

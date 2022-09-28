@@ -5,24 +5,18 @@
     --textColor: #ffffff;
 }
 
+#cabecalho {
+    background-color: var(--cabecalho);
+}
+
 body {
     background-color: var(--background);
     color: var(--textColor);
 }
 
-#cabecalho {
-    background-color: var(--cabecalho);
-}
-
 h1 {
     font-size: 45px;
     padding: 25px;
-}
-
-#aboutme p {
-    text-align: center;
-    font-size: 30px;
-    padding: 45px;
 }
 
 h2 {
@@ -41,26 +35,4 @@ p {
 
 .navbar-light .navbar-nav .nav-link {
     color: var(--textColor);
-}
-
-#aboutme {
-    padding: 50px;
-    display: inline-flex;
-    align-items: center;
-}
-
-#aboutme div {
-    text-align: center;
-}
-
-.square {
-    width: 300px;
-    height: 200px;
-}
-
-#squares {
-    display: flex;
-    justify-content: space-evenly;
-    padding: 25px;
-    margin: 80px;
 }
