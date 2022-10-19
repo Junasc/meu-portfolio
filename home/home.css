@@ -8,13 +8,14 @@
     padding: 45px;
 }
 
-#aboutme {
+#sobreMim {
     padding: 50px;
     display: inline-flex;
     align-items: center;
 }
 
-#aboutme div {
+#sobreMim div {
+    padding: 4%;
     text-align: center;
 }
 
@@ -28,4 +29,12 @@
     justify-content: space-evenly;
     padding: 25px;
     margin: 80px;
+}
+
+#contatodiv {
+    height: 300px;
+    width: 80%;
+    margin: auto;
+    outline: 1px solid #2c1236;
+    text-align: center;
 }

@@ -1,8 +1,8 @@
 :root {
-    --background: #67537A;
-    --rodape: #867198;
-    --cabecalho: #493758;
-    --textColor: #ffffff;
+    --background: #a86db4;
+    --rodape: #5e4c66;
+    --cabecalho: #72617A;
+    --textColor: #2c1236;
 }
 
 #cabecalho {
@@ -17,6 +17,8 @@ body {
 h1 {
     font-size: 45px;
     padding: 25px;
+    text-align: center;
+    background-color: var(--cabecalho);
 }
 
 h2 {
@@ -29,10 +31,13 @@ p {
     font-size: 30px;
 }
 
-.navbar-light .navbar-brand {
-    color: var(--textColor);
+a:hover {
+    background-color: #685570;
+    border-radius: 5px;
 }
 
-.navbar-light .navbar-nav .nav-link {
-    color: var(--textColor);
+footer {
+    background-color: var(--rodape);
+    width: 100%;
+    height: 20px;
 }
