@@ -8,3 +8,13 @@
 .div-games div {
     text-align: center;
 }
+
+#carousel {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+#carousel div {
+    padding: 10px;
+}

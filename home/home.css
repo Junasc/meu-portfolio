@@ -32,9 +32,13 @@
 }
 
 #contatodiv {
-    height: 300px;
-    width: 80%;
+    height: 200px;
+    width: 40%;
     margin: auto;
     outline: 1px solid #2c1236;
-    text-align: center;
+    text-align: left;
+}
+
+#contatodiv div {
+    padding: 15px;
 }
